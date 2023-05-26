@@ -29,6 +29,7 @@ h1{
   justify-content: center;
   gap: 50px;
   height: 100vh;
+  padding: 50px;
 }
 
 .game-box{

@@ -22,7 +22,7 @@ function setPlayerSpace(gameSpace, index) {
 
 function changePlayer() {
     currentPlayer = currentPlayer === 'x' ? 'o' : 'x'
-    document.querySelector('.turn-img').style.backgroundImage = `url('img/$ {currentPlayer}.png')`
+    document.querySelector(".turn-img").style.background = `url('img/${currentPlayer}.png') no-repeat center`;
 }
 
 function checkWin() {
